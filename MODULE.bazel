@@ -1,0 +1,10 @@
+#
+# MODULE.bazel - bzlmod configuration
+#
+
+module(
+    name = "rules_latex",
+    version = "2025.3.0",
+    bazel_compatibility = [">=8.0.0"],
+    compatibility_level = 1,
+)
